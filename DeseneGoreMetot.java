@@ -10,14 +10,12 @@ public class DeseneGoreMetot {
 
     static void f(int x){
         int i,j;
-        while(x>0){
-            for (i = x; i > 0; i -= 5) {
-                System.out.println(i);
-                j = i;
-            }
-            for (j = i; j <= x; j += 5) {
-                System.out.println(j);
-            }
+        for (i = x; i > 0; i -= 5) {
+            System.out.println(i);
+            j = i;
+        }
+        for (j = i; j <= x; j += 5) {
+            System.out.println(j);
         }
     }
 
